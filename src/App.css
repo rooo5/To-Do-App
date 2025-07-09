@@ -61,6 +61,7 @@ body {
 }
 
 .addTasks {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,23 +71,30 @@ body {
 }
 
 #input-bar {
-  width: 20vh;
+  position: absolute;
+  width: 18vh;
   height: 5vh;
-  border-radius: 10px;
+  border-radius: 3rem;
   border: none;
-  padding-left: 10px;
+  padding: 0 5rem 0 1rem;
+  outline: none;
 }
 
 .add {
+  position: absolute;
   width: 10vh;
   height: 5vh;
-  border-radius: 10px;
+  border-radius: 3rem;
   border: none;
   background-color: #ffaebc;
   color: white;
   font-weight: bold;
   margin: 0.5rem;
+  padding: 0 1rem;
+  margin-left: 12rem;
+  outline: none;
 }
+
 
 
 .list {
@@ -111,7 +119,6 @@ body {
   gap: 1rem;
   padding: 0.5rem 1rem;
   background-color: #f8f8f8;
-  /* border-radius: 0.5rem; */
   margin-bottom: 0.2rem;
 }
 
@@ -129,4 +136,8 @@ body {
   background: none;
   cursor: pointer;
   font-size: 1.2rem;
+}
+
+.header {
+  color: #720e9e;
 }
